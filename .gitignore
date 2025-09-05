@@ -1,0 +1,49 @@
+# =======================
+# Python
+# =======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.egg
+*.log
+
+# =======================
+# Virtual environments
+# =======================
+.venv/
+venv/
+env/
+
+# =======================
+# Jupyter & VSCode
+# =======================
+.ipynb_checkpoints/
+*.ipynb
+.vscode/
+.idea/
+
+# =======================
+# Datasets
+# =======================
+data/
+*.csv
+*.tsv
+*.xlsx
+
+# =======================
+# Results / Outputs
+# =======================
+results/
+*.png
+*.pdf
+*.html
+*.json
+
+# =======================
+# OS-specific
+# =======================
+.DS_Store
+Thumbs.db
