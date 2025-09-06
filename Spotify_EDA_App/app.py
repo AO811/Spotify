@@ -9,9 +9,9 @@ import plotly.express as px
 # -----------------------------
 @st.cache_data
 def load_data():
-    artists = pd.read_csv("../data/artists.csv")
-    tracks = pd.read_csv("../data/tracks.csv")
-    features = pd.read_csv("../data/SpotifyFeatures.csv")
+    artists = pd.read_parquet("data/artists.parquet")
+    tracks = pd.read_parquet("data/tracks.parquet")
+    features = pd.read_parquet("data/SpotifyFeatures.parquet")
     return artists, tracks, features
 
 artists, tracks, features = load_data()
